@@ -33,7 +33,6 @@ env/
 *.sqlite3
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -65,8 +64,6 @@ dist/
 .turbo/
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 .env.development.local
 .env.test.local
@@ -89,5 +86,7 @@ logs/
 temp/
 
 # IDE generated files
-.vscode/settings.json
-.vscode/extensions.json
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
